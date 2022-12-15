@@ -1,0 +1,6 @@
+project: mailparse
+target: mailparse-fuzz
+
+cmds:
+    - cmd: ./mailparse-fuzz
+      libfuzzer: true
